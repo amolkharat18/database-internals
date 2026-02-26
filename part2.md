@@ -6,9 +6,11 @@
 
 ---
 
-**१. डिस्ट्रीब्युटेड सिस्टीम्सची ओळख (Chapter 8)**
+**१. Distributed Systems ची ओळख (Chapter 8)**
 
-या चॅप्टरमध्ये डिस्ट्रीब्युटेड सिस्टीम्स आणि एकाच नोडवर चालणाऱ्या ॲप्लिकेशनमधील मूलभूत फरक स्पष्ट केला आहे. नेटवर्कमधील अनिश्चितता (Fallacies of Distributed Computing), तसेच **'Two Generals Problem'** आणि **'FLP Impossibility'** यांसारख्या सिद्धांतांवर चर्चा केली आहे जे सिद्ध करतात की कोणत्याही पूर्णपणे असिंक्रोनस (asynchronous) सिस्टीममध्ये ठराविक वेळेत एकमत (consensus) मिळवणे अशक्य असते. तसेच क्रॅश आणि बायझँटाईन (Byzantine) सारख्या विविध फेल्युअर मॉडेल्सची (Failure Models) माहिती दिली आहे.
+- या chapter मध्ये distributed systems आणि एकाच नोडवर चालणाऱ्या application मधील मूलभूत फरक स्पष्ट केला आहे.
+- नेटवर्कमधील अनिश्चितता (Fallacies of Distributed Computing), तसेच **'Two Generals Problem'** आणि **'FLP Impossibility'** यांसारख्या सिद्धांतांवर चर्चा केली आहे जे सिद्ध करतात की कोणत्याही पूर्णपणे asynchronous सिस्टीममध्ये ठराविक वेळेत एकमत (consensus) मिळवणे अशक्य असते.
+- तसेच crash आणि Byzantine सारख्या विविध फेल्युअर मॉडेल्सची (Failure Models) माहिती दिली आहे.
 
 ---
 
