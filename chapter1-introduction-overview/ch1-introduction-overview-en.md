@@ -1,5 +1,5 @@
 # Your Database Has a Secret Life — And You've Never Seen It
-### *Database Internals Series — Blog 1: Chapter 1 — Introduction and Overview*
+### *Database Internals Series — Chapter 1 — Introduction and Overview*
 
 ---
 
