@@ -130,13 +130,17 @@ Here's the brutal truth about storage media:
 graph LR
     subgraph Speed["⚡ Speed (Fastest → Slowest)"]
         direction LR
+        spacer1[" "]:::hidden
         CPU["CPU Cache<br>~1 ns"] --> RAM["RAM<br>~100 ns"] --> SSD["SSD<br>~100 µs"] --> HDD["HDD<br>~10 ms"]
     end
 
     subgraph Cost["💰 Cost per GB (Cheapest → Most Expensive)"]
         direction LR
+        spacer2[" "]:::hidden
         HDD2["HDD<br>~$0.02"] --> SSD2["SSD<br>~$0.10"] --> RAM2["RAM<br>~$5.00"] --> CPU2["CPU Cache<br>💸💸💸"]
     end
+
+    classDef hidden fill:none,stroke:none,color:none;
 ```
 
 This single trade-off — **speed vs cost vs durability** — is why two entirely different classes of databases exist.
@@ -186,6 +190,7 @@ This is one of the most practically important concepts in the chapter — and mo
 graph TD
     subgraph ROW["📦 Row-Oriented Storage (MySQL, PostgreSQL)"]
         direction LR
+        spacer1[" "]:::hidden
         R1["[10, John, 01 Aug 1981, +1 111 222 333]"]
         R2["[20, Sam, 14 Sep 1988, +1 555 888 999]"]
         R3["[30, Keith, 07 Jan 1984, +1 333 444 555]"]
@@ -193,11 +198,14 @@ graph TD
 
     subgraph COL["📊 Column-Oriented Storage (ClickHouse, Redshift)"]
         direction LR
+        spacer2[" "]:::hidden
         C1["ID: [10, 20, 30]"]
         C2["Name: [John, Sam, Keith]"]
         C3["Birth: [01 Aug 1981, 14 Sep 1988, 07 Jan 1984]"]
         C4["Phone: [+1 111 222 333, +1 555 888 999, +1 333 444 555]"]
     end
+
+    classDef hidden fill:none,stroke:none,color:none;
 ```
 
 ### When does each shine?
